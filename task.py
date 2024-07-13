@@ -1,6 +1,5 @@
 def hexagon_pattern(rows, cols):
     for row in range(rows):
-        # Top part of the hexagons
         for col in range(cols):
             print("  ___  ", end=" ")
         print()
